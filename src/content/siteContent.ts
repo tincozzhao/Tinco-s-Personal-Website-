@@ -95,7 +95,7 @@ export const siteContent: SiteContent = {
       image: {
         label: "[LEARNING PHOTO]",
         path: "",
-        alt: "Replace with a description of your learning photograph",
+        alt: "Replace with a description of your learning",
         aspectRatio: "3/4",
       },
       highlights: ["Digital Art", "Dance", "HTML & CSS"],
