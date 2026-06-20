@@ -145,10 +145,10 @@ export const siteContent: SiteContent = {
       summary: "An academic tool in the style of Mac OS X that calculates AP Exam Scores & provides study resources.",
       role: "Developer",
       tools: ["AI Chatbot", "AP Score Predictor", "TO-DO List"],
-      outcome: "[DESCRIBE THE RESULT, IMPACT, OR WHAT YOU LEARNED.]",
+      outcome: "Inspired from early 2000s designs, I created an online study tool to help high school students prepare for AP exams through a customizable task list, AI chatbot, and AP score predictor.",
       image: {
         label: "[PROJECT IMAGE 01]",
-        path: "",
+        path: "/gradecalculator.png",
         alt: "Replace with a description of project one",
         aspectRatio: "16/10",
       },

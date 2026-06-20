@@ -110,9 +110,9 @@ function MemorySection({
         <header className={styles.projectIntro} data-paper>
           <p>SELECTED MEMORIES / OPEN EACH ENTRY</p>
           <h2 id="projects-title">
-            Things I’ve
+            Projects &
             <br />
-            made & kept.
+            Experiences
           </h2>
         </header>
         <div className={styles.projectCollage}>
