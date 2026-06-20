@@ -1,0 +1,71 @@
+:root {
+  --sage: #c5ccb8;
+  --dusty-pink: #e8c8d0;
+  --cream: #f8f4ef;
+  --warm-ivory: #f5efe8;
+  --soft-beige: #e9e2d8;
+  --muted-olive: #747d63;
+  --faded-rose: #c996a4;
+  --lily-white: #fffdf9;
+  --ink: #4c4a43;
+  --ink-soft: #716d64;
+  --ivory: var(--warm-ivory);
+  --paper: var(--cream);
+  --headline: "Cormorant Garamond", Georgia, serif;
+  --body: "DM Sans Variable", "Helvetica Neue", sans-serif;
+  --hand: "Caveat Variable", "Bradley Hand", cursive;
+  --space-page: clamp(1rem, 4vw, 4rem);
+  --shadow-paper: 0 18px 50px rgb(76 74 67 / 12%);
+  --shadow-photo: 0 14px 30px rgb(76 74 67 / 18%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: var(--ink);
+  background: var(--soft-beige);
+  font-family: var(--body);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+a {
+  color: inherit;
+  font: inherit;
+}
+
+button {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  color: var(--ink);
+  background: var(--dusty-pink);
+}
+
+:focus-visible {
+  outline: 3px solid var(--faded-rose);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
