@@ -69,13 +69,13 @@ export const siteContent: SiteContent = {
       navLabel: "Story",
       eyebrow: "CHAPTER 01 / THE BEGINNING",
       yearLabel: "2015",
-      title: "A STORY\nSTILL BEING\nWRITTEN",
+      title: "MY\nEARLY\nLIFE",
       story:
         "I was born in Hangzhou, China, and spent most of my childhood traveling within Asia! Now, I'm exploring a career pathway in STEM in the US!",
       theme: "ivory",
       characterStage: "small",
       image: {
-        label: "[CHILDHOOD PHOTO]",
+        label: "Me at local boba shop",
         path: "/boba.JPG",
         alt: "Replace with a description of your childhood photograph",
         aspectRatio: "4/5",
@@ -94,7 +94,7 @@ export const siteContent: SiteContent = {
       characterStage: "growing",
       image: {
         label: "[LEARNING PHOTO]",
-        path: "/stagecraft.JPG",
+        path: "/stagecraft.jpg",
         alt: "Replace with a description of your learning",
         aspectRatio: "3/4",
       },

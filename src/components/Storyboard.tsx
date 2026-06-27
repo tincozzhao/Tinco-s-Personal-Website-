@@ -129,7 +129,7 @@ function MemorySection({
               <TapeDecoration tone={index % 2 === 0 ? "sage" : "pink"} />
               <PolaroidPhoto
                 image={project.image}
-                caption={`archive / ${project.number}`}
+                caption={`${project.number}`}
                 rotation={index === 1 ? 3 : -2}
               />
               <span className={styles.projectNumber}>ENTRY {project.number}</span>
@@ -139,10 +139,6 @@ function MemorySection({
             </button>
           ))}
         </div>
-        <JournalNote className={styles.projectNote} label="margin note">
-          Projects are memories of questions, experiments, and things learned
-          along the way.
-        </JournalNote>
       </ScrapbookPage>
     </section>
   );

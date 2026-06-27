@@ -222,7 +222,6 @@ export function StoryChapter({
           className={styles.chapterBotanicals}
           index={index}
         />
-        <span className={styles.inkLoop} aria-hidden="true" data-float />
         <header className={styles.chapterHeading} data-paper>
           <p>{chapter.eyebrow}</p>
           <h1>

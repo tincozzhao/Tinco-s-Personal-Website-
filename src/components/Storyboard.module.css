@@ -698,19 +698,6 @@
   right: 19%;
 }
 
-.inkLoop {
-  position: absolute;
-  z-index: 2;
-  top: 43%;
-  left: 28%;
-  width: 180px;
-  height: 85px;
-  border: 2px solid rgb(116 125 99 / 24%);
-  border-right-color: transparent;
-  border-radius: 50%;
-  transform: rotate(-20deg);
-}
-
 .projectSection {
   min-height: 110vh;
   background: var(--sage);
@@ -1294,11 +1281,6 @@
     right: -17%;
     width: 78vw;
     height: 27%;
-  }
-
-  .inkLoop {
-    top: 55%;
-    left: -2rem;
   }
 
   .projectPage {
