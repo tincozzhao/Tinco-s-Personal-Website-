@@ -292,11 +292,11 @@ export function Storyboard({ content }: StoryboardProps) {
               </ul>
             </PaperCard>
             <JournalNote className={styles.contactNote} label="the next page">
-              There is always room for one more beautiful chapter.
+              Check out my current projects and experiences!
             </JournalNote>
             <div className={styles.footerLine}>
               <span>{content.name}</span>
-              <span>PERSONAL JOURNAL / [YEAR]</span>
+              <span>PERSONAL JOURNAL / [2026]</span>
             </div>
           </ScrapbookPage>
         </section>
